@@ -4,6 +4,7 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
 <About />
 <Client/>
+<MediaPartner/>
   </div>
 </template>
 
@@ -12,11 +13,11 @@
 import HelloWorld from './components/HelloWorld.vue'
 import About from "./components/section/About.vue"
 import Client from "./components/section/Client.vue"
-
+import MediaPartner from "./components/section/MediaPartner.vue"
 export default {
   name: 'App',
   components: {
-    HelloWorld, About, Client
+    HelloWorld, About, Client, MediaPartner
   }
 }
 </script>
