@@ -8,7 +8,7 @@
 
                 <div class="container-services">
                     <div class="services-left">
-						<img src="../../assets/services/1.png">
+						<img src="../../assets/services/1.png" class="icon-service" >
                     </div>
                     <div class="services-right">
                         <h2 class="title-services">1. Services 1</h2>
@@ -20,7 +20,7 @@
                         </ul>
                     </div>
                     <div class="services-left">
-						<img src="../../assets/services/2.png">
+						<img src="../../assets/services/2.png" class="icon-service">
                     </div>
                     <div class="services-right">
                         <h2 class="title-services">2. Services 2</h2>
@@ -32,7 +32,7 @@
                         </ul>
                     </div>
                     <div class="services-left">
-						<img src="../../assets/services/3.png">
+						<img src="../../assets/services/3.png" class="icon-service">
                     </div>
                     <div class="services-right">
                         <h2 class="title-services">3. Services 3</h2>
@@ -48,5 +48,7 @@
 </template>
 <style scoped>
 @import "../style/App.css";
+@import "./style/service.css";
+
 
 </style>
