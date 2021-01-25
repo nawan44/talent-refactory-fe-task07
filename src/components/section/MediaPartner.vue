@@ -5,7 +5,7 @@
                 <hr class="line-section" />
 
                 <h5>Our Core in Integrated Marketing Services :</h5>
-              <div srtyle={containerClient}>
+              <div class= "container-client">
 <img src="../../assets/media/antv.png" class="logo-client">
                     <img src="../../assets/media/detik.png" class="logo-client">
                     <img src="../../assets/media/globaltv.png" class="logo-client">
