@@ -6,7 +6,9 @@
 <Services/>
 
 <Client/>
+<Portofolio/>
 <MediaPartner/>
+<Contact />
   </div>
 </template>
 
@@ -17,12 +19,14 @@ import About from "./components/section/About.vue"
 import Client from "./components/section/Client.vue"
 import MediaPartner from "./components/section/MediaPartner.vue"
 import Services from "./components/section/Services.vue"
-
+import Contact from "./components/section/Contact.vue"
+import Portofolio from './components/section/Portofolio.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld, About, Client, MediaPartner, Services
+    HelloWorld, About, Client, MediaPartner, Services, Contact,
+    Portofolio
   }
 }
 </script>
