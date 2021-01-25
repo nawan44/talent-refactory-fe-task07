@@ -8,10 +8,10 @@
                     <form class="contactus">
                         <formgroup>
 
-                            <p><input class="FormInput" type="text" placeholder="Name" /></p>
-                            <p><input class="FormInput" type="text" placeholder="Email Address" /></p>
-                            <p><input class="FormInput" type="text" placeholder="Phone Number" /></p>
-                            <p><input class="FormInput" type="textarea" placeholder="Message" /></p>
+                            <p><input class="form-input" type="text" placeholder="Name" /></p>
+                            <p><input class="form-input" type="text" placeholder="Email Address" /></p>
+                            <p><input class="form-input" type="text" placeholder="Phone Number" /></p>
+                            <p><input class="form-input" type="textarea" placeholder="Message" /></p>
                             <button color="info" class="btn-send" block>Send
                         </button>
                         </formgroup>
@@ -24,6 +24,6 @@
 </template>
 <style scoped>
 
-@import "style/contact.css";
+@import "./style/contact.css";
 @import "../style/App.css";
 </style>

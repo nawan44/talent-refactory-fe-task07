@@ -27,31 +27,27 @@
                         </p>
                     </div>
                 </div>
-                <Row class="social">
-                    {/* <div class="social-medsos-left" >
-
-                    </div> */}
+                <row class="social">
+  
                     <div class="social-medsos-center" >
                        <div class="container-medsos">
                        <a href="https://facebook.com">
-                            <i class='fab fa-facebook-square' style={medsos} ></i>
+                            <i class='fab fa-facebook-square'  ></i>
                         </a>
                         <a href="https://instagram.com">
-                            <i class='fab fa-instagram' style={medsos}>
+                            <i class='fab fa-instagram' >
 
                             </i>
                         </a>
 
                         <a href="https://linkedin.com">
-                            <i class='fab fa-linkedin' style={medsos}></i>
+                            <i class='fab fa-linkedin' ></i>
                         </a>
                        </div>
                     </div>
-{/* 
-                    <div class="social-medsos-right">
 
-                    </div> */}
-                </Row>
+    
+                </row>
                 <div class="col-copy">
                     <p class="copyright">&copy; Rachwan all right reserved.</p>
                 </div>
@@ -59,5 +55,6 @@
 </template>
 
 <style scoped>
+@import "./style/footer.css";
 
 </style>
