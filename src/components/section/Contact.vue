@@ -18,7 +18,7 @@
                     </form>
 
                 </container>
-                <a href="#contact" class="btn btn-block btn-full-width">Let's Discuss!</a>
+                <a href="#contact" class=" btn-block btn-full-width">Let's Discuss!</a>
 
             </div>
 </template>
