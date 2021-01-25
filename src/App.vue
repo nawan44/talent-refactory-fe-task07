@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<Header />
 <About />
 <Services/>
 
@@ -9,24 +8,26 @@
 <Portofolio/>
 <MediaPartner/>
 <Contact />
+<Footer />
   </div>
 </template>
 
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
 import About from "./components/section/About.vue"
 import Client from "./components/section/Client.vue"
 import MediaPartner from "./components/section/MediaPartner.vue"
 import Services from "./components/section/Services.vue"
 import Contact from "./components/section/Contact.vue"
 import Portofolio from './components/section/Portofolio.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld, About, Client, MediaPartner, Services, Contact,
-    Portofolio
+    Header, About, Client, MediaPartner, Services, Contact,
+    Portofolio, Footer
   }
 }
 </script>
