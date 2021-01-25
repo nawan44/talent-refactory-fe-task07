@@ -17,9 +17,9 @@
                     <h2 class="tag-line">Reach Your Global</h2>
                 </div>
                 <div>
-                    <div class="ardiv">
-                        <a class="btn-ardiv" href="#about">
-                            <i class='fas fa-ardiv-circle-down'></i>
+                    <div class="arrow">
+                        <a class="btn-arrow" href="#about">
+                            <i class='fas fa-arrow-circle-down'></i>
 
                         </a>
                     </div>
