@@ -49,7 +49,6 @@
                     </a>
                 </div>
             </div>
-
         </div>
         <div class="col-copy">
             <p class="copyright">&copy; Rachwan all right reserved.</p>
@@ -59,9 +58,5 @@
 
 <style scoped="scoped">
     @import "./style/footer.css";
-    .font-icon{
-            font-size: 24px;
-            margin :10px;
-
-    }
+    
 </style>

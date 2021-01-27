@@ -8,31 +8,25 @@
                     <h1 class="brand-name">Rachwan</h1>
                 </div>
                 <div>
-                    <hr class="line-header"/>
-                </div>
-                <div>
-                    <hr class="line-header"/>
-                </div>
+                    <hr class="line-header"/></div>
+                <div><hr class="line-header"/></div>
                 <div>
                     <h2 class="tag-line">Reach Your Global</h2>
                 </div>
                 <div>
                     <div class="arrow">
                         <a class="btn-arrow" href="#about">
-                            <i class='fas fa-arrow-circle-down'></i>
-
+                            <i class='far fa-arrow-alt-circle-down font-arrow'></i>
                         </a>
                     </div>
                 </div>
             </div>
-        </div >
+        </div>
     </template>
-    <style  scoped>
-            @import './style/App.css';
-            @import './style/header.css';
-
+    <style scoped="scoped">
+        @import './style/App.css';
+        @import './style/header.css';
     </style>
-
 
     <script>
         import Navmenu from './Navmenu.vue'
@@ -40,4 +34,4 @@
         export default {name: 'Header', components: {
                 Navmenu
             }}
-    </script> 
+    </script>
